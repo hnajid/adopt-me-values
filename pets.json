@@ -278,4 +278,39 @@
     "isFlyable": false,
     "isRideable": false
   }
+  {
+"id": "frost_fury",
+"name": "Frost Fury",
+"rarity": "legendary",
+"value": 95,
+"imageName": "frost_fury"
+},
+{
+"id": "lava_dragon",
+"name": "Lava Dragon",
+"rarity": "legendary",
+"value": 120,
+"imageName": "lava_dragon"
+},
+{
+"id": "ghost_dragon",
+"name": "Ghost Dragon",
+"rarity": "legendary",
+"value": 85,
+"imageName": "ghost_dragon"
+},
+{
+"id": "ice_golem",
+"name": "Ice Golem",
+"rarity": "legendary",
+"value": 90,
+"imageName": "ice_golem"
+},
+{
+"id": "guardian_lion",
+"name": "Guardian Lion",
+"rarity": "legendary",
+"value": 75,
+"imageName": "guardian_lion"
+}
 ]
