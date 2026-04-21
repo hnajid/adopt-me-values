@@ -3,7 +3,7 @@
     "id": "shadow_dragon",
     "name": "Shadow Dragon",
     "rarity": "Legendary",
-    "value": 250,
+    "value": 900,
     "imageName": "shadow_dragon",
     "isFlyable": true,
     "isRideable": true
@@ -12,7 +12,7 @@
     "id": "bat_dragon",
     "name": "Bat Dragon",
     "rarity": "Legendary",
-    "value": 235,
+    "value": 700,
     "imageName": "bat_dragon",
     "isFlyable": true,
     "isRideable": true
