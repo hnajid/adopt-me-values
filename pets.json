@@ -54,15 +54,6 @@
     "isRideable": true
   },
   {
-    "id": "arctic_reindeer",
-    "name": "Arctic Reindeer",
-    "rarity": "Legendary",
-    "value": 120,
-    "imageName": "arctic_reindeer",
-    "isFlyable": true,
-    "isRideable": true
-  },
-  {
     "id": "crow",
     "name": "Crow",
     "rarity": "Legendary",
@@ -77,6 +68,15 @@
     "rarity": "Legendary",
     "value": 116,
     "imageName": "evil_unicorn",
+    "isFlyable": true,
+    "isRideable": true
+  },
+  {
+    "id": "arctic_reindeer",
+    "name": "Arctic Reindeer",
+    "rarity": "Legendary",
+    "value": 120,
+    "imageName": "arctic_reindeer",
     "isFlyable": true,
     "isRideable": true
   },
@@ -99,20 +99,11 @@
     "isRideable": true
   },
   {
-    "id": "cow",
-    "name": "Cow",
-    "rarity": "Rare",
-    "value": 68,
-    "imageName": "cow",
-    "isFlyable": true,
-    "isRideable": true
-  },
-  {
-    "id": "ssbd",
-    "name": "Strawberry Shortcake Bat Dragon",
+    "id": "golden_unicorn",
+    "name": "Golden Unicorn",
     "rarity": "Legendary",
-    "value": 80,
-    "imageName": "ssbd",
+    "value": 35,
+    "imageName": "golden_unicorn",
     "isFlyable": true,
     "isRideable": true
   },
@@ -126,11 +117,20 @@
     "isRideable": true
   },
   {
-    "id": "golden_unicorn",
-    "name": "Golden Unicorn",
+    "id": "dragon",
+    "name": "Dragon",
     "rarity": "Legendary",
-    "value": 35,
-    "imageName": "golden_unicorn",
+    "value": 18,
+    "imageName": "dragon",
+    "isFlyable": true,
+    "isRideable": true
+  },
+  {
+    "id": "unicorn",
+    "name": "Unicorn",
+    "rarity": "Legendary",
+    "value": 22,
+    "imageName": "unicorn",
     "isFlyable": true,
     "isRideable": true
   },
@@ -140,44 +140,8 @@
     "rarity": "Legendary",
     "value": 24,
     "imageName": "phoenix",
-    "isFlyable": false,
-    "isRideable": false
-  },
-  {
-    "id": "dragon",
-    "name": "Dragon",
-    "rarity": "Legendary",
-    "value": 18,
-    "imageName": "dragon",
-    "isFlyable": false,
-    "isRideable": false
-  },
-  {
-    "id": "unicorn",
-    "name": "Unicorn",
-    "rarity": "Legendary",
-    "value": 22,
-    "imageName": "unicorn",
-    "isFlyable": false,
-    "isRideable": false
-  },
-  {
-    "id": "ancient_dragon",
-    "name": "Ancient Dragon",
-    "rarity": "Legendary",
-    "value": 16,
-    "imageName": "ancient_dragon",
-    "isFlyable": false,
-    "isRideable": false
-  },
-  {
-    "id": "cerberus",
-    "name": "Cerberus",
-    "rarity": "Legendary",
-    "value": 14,
-    "imageName": "cerberus",
-    "isFlyable": false,
-    "isRideable": false
+    "isFlyable": true,
+    "isRideable": true
   },
   {
     "id": "lion",
@@ -185,17 +149,8 @@
     "rarity": "Ultra Rare",
     "value": 58,
     "imageName": "lion",
-    "isFlyable": false,
-    "isRideable": false
-  },
-  {
-    "id": "flamingo",
-    "name": "Flamingo",
-    "rarity": "Ultra Rare",
-    "value": 72,
-    "imageName": "flamingo",
-    "isFlyable": false,
-    "isRideable": false
+    "isFlyable": true,
+    "isRideable": true
   },
   {
     "id": "dalmatian",
@@ -203,114 +158,80 @@
     "rarity": "Ultra Rare",
     "value": 74,
     "imageName": "dalmatian",
-    "isFlyable": false,
-    "isRideable": false
+    "isFlyable": true,
+    "isRideable": true
+  },
+  {
+    "id": "flamingo",
+    "name": "Flamingo",
+    "rarity": "Ultra Rare",
+    "value": 72,
+    "imageName": "flamingo",
+    "isFlyable": true,
+    "isRideable": true
+  },
+  {
+    "id": "cow",
+    "name": "Cow",
+    "rarity": "Ultra Rare",
+    "value": 68,
+    "imageName": "cow",
+    "isFlyable": true,
+    "isRideable": true
   },
   {
     "id": "zombie_buffalo",
     "name": "Zombie Buffalo",
     "rarity": "Ultra Rare",
-    "value": 40,
+    "value": 70,
     "imageName": "zombie_buffalo",
+    "isFlyable": true,
+    "isRideable": true
+  },
+
+  {
+    "id": "frost_fury",
+    "name": "Frost Fury",
+    "rarity": "Legendary",
+    "value": 95,
+    "imageName": "frost_fury",
     "isFlyable": false,
     "isRideable": false
   },
   {
-    "id": "business_monkey",
-    "name": "Business Monkey",
-    "rarity": "Ultra Rare",
-    "value": 20,
-    "imageName": "business_monkey",
+    "id": "lava_dragon",
+    "name": "Lava Dragon",
+    "rarity": "Legendary",
+    "value": 120,
+    "imageName": "lava_dragon",
     "isFlyable": false,
     "isRideable": false
   },
   {
-    "id": "koala",
-    "name": "Koala",
-    "rarity": "Ultra Rare",
-    "value": 10,
-    "imageName": "koala",
+    "id": "ghost_dragon",
+    "name": "Ghost Dragon",
+    "rarity": "Legendary",
+    "value": 85,
+    "imageName": "ghost_dragon",
     "isFlyable": false,
     "isRideable": false
   },
   {
-    "id": "bee",
-    "name": "Bee",
-    "rarity": "Ultra Rare",
-    "value": 8,
-    "imageName": "bee",
+    "id": "ice_golem",
+    "name": "Ice Golem",
+    "rarity": "Legendary",
+    "value": 90,
+    "imageName": "ice_golem",
     "isFlyable": false,
     "isRideable": false
   },
   {
-    "id": "shiba_inu",
-    "name": "Shiba Inu",
-    "rarity": "Rare",
-    "value": 5,
-    "imageName": "shiba_inu",
-    "isFlyable": false,
-    "isRideable": false
-  },
-  {
-    "id": "kelpie",
-    "name": "Australian Kelpie",
-    "rarity": "Rare",
-    "value": 4,
-    "imageName": "kelpie",
-    "isFlyable": false,
-    "isRideable": false
-  },
-  {
-    "id": "bunny",
-    "name": "Bunny",
-    "rarity": "Uncommon",
-    "value": 2,
-    "imageName": "bunny",
-    "isFlyable": false,
-    "isRideable": false
-  },
-  {
-    "id": "snow_cat",
-    "name": "Snow Cat",
-    "rarity": "Common",
-    "value": 1,
-    "imageName": "snow_cat",
+    "id": "guardian_lion",
+    "name": "Guardian Lion",
+    "rarity": "Legendary",
+    "value": 75,
+    "imageName": "guardian_lion",
     "isFlyable": false,
     "isRideable": false
   }
-  {
-"id": "frost_fury",
-"name": "Frost Fury",
-"rarity": "legendary",
-"value": 95,
-"imageName": "frost_fury"
-},
-{
-"id": "lava_dragon",
-"name": "Lava Dragon",
-"rarity": "legendary",
-"value": 120,
-"imageName": "lava_dragon"
-},
-{
-"id": "ghost_dragon",
-"name": "Ghost Dragon",
-"rarity": "legendary",
-"value": 85,
-"imageName": "ghost_dragon"
-},
-{
-"id": "ice_golem",
-"name": "Ice Golem",
-"rarity": "legendary",
-"value": 90,
-"imageName": "ice_golem"
-},
-{
-"id": "guardian_lion",
-"name": "Guardian Lion",
-"rarity": "legendary",
-"value": 75,
-"imageName": "guardian_lion"
-}
 ]
