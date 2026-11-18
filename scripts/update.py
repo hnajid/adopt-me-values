@@ -86,7 +86,13 @@ def main():
         try:
             data = get(packed["imageBase"] + "/" + urllib.parse.quote(image), tries=2)
             if data[:8] == b"\x89PNG\r\n\x1a\n":
-                open(os.path.join(img_dir, s + ".png"), "wb").write(data); have.add(s); got += 1
+                path = os.path.join(img_dir, s + ".png")
+                open(path, "wb").write(data); have.add(s); got += 1
+                try:
+                    from PIL import Image
+                    im = Image.open(path).convert("RGBA"); im.thumbnail((160, 160)); im.save(path, optimize=True)
+                except Exception:
+                    pass
         except Exception:
             pass
     for it in items:
